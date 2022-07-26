@@ -8,3 +8,11 @@ function calc(valor1,valor2, callback){
 
 console.log(calc(1,2,suma))
 
+setTimeout(()=>{
+    console.log("Hello world ")
+},2000)
+
+function saludo (name){
+console.log(`Hola ${name}`)
+}
+setTimeout(saludo,2000,"Daniel")
