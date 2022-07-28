@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "node-fetch": "^3.2.9",
     "xmlhttprequest": "^1.8.0"
   },
   "name": "git_repo_asyn_js",
   "version": "1.0.0",
   "description": "estudio de asincronismo",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "callback": "node src/callback/challenge.js"
   },
@@ -15,5 +15,7 @@
     "Javascript"
   ],
   "author": "Daniel djaimes.dev@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "type":"module"
 }
+
